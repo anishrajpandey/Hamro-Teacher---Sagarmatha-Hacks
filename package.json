@@ -9,10 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.1.1",
+    "@material-tailwind/react": "^2.1.8",
     "@nextui-org/react": "^2.2.9",
     "@protobufjs/codegen": "^2.0.4",
     "firebase": "^10.7.1",
     "framer-motion": "^10.16.16",
+    "heroicons": "^2.1.1",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18"
