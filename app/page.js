@@ -8,7 +8,9 @@ export default async function Home() {
     <div>
       <NavbarSimple />
       <Link href='/login'>Login</Link>
-      {}
+      <Link href='/register'>Register</Link>
+      <Link href='/home'>Home</Link>
+      
     </div>
   );
 }
