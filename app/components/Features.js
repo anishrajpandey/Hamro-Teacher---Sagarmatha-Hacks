@@ -3,7 +3,7 @@ import React from 'react'
 function Features() {
   return (
     <div>
-        <section className="bg-white " >
+        <section className="bg-white " id='features' >
         <div class="container px-6 py-10 mx-auto">
             <h1 class="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl">explore our <br/> awesome <span class="text-blue-700">Features</span></h1>
             
