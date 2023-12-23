@@ -18,8 +18,8 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
-          Pages
+        <a href="#" className="flex items-center hover:text-blue-500 transition-colors text-lg">
+          Home
         </a>
       </Typography>
       <Typography
@@ -28,8 +28,8 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
-          Account
+        <a href="#" className="flex items-center hover:text-blue-500 transition-colors text-lg">
+          About
         </a>
       </Typography>
       <Typography
@@ -38,8 +38,8 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
-          Blocks
+        <a href="#" className="flex items-center hover:text-blue-500 transition-colors text-lg">
+          Pricing
         </a>
       </Typography>
       <Typography
@@ -48,8 +48,8 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
-          Docs
+        <a href="#" className="flex items-center hover:text-blue-500 transition-colors text-lg">
+          Dashboard
         </a>
       </Typography>
     </ul>
@@ -71,7 +71,7 @@ export function NavbarSimple() {
   }, []);
  
   return (
-    <Navbar className="mx-auto max-w-screen-xl px-6 py-3">
+    <Navbar className="mx-auto w-full rounded-none py-3 border-none backdrop-blur-0 backdrop-filter-none bg-transparent shadow-none">
       <div className="flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
