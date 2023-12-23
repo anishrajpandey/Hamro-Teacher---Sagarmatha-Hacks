@@ -15,13 +15,13 @@ const page = () => {
       >
         GetOneSchoolByID
       </button>
-      <button className="bg-gray-600" onClick={RegisterSchool}>
+      <button className="bg-gray-600" onClick={() => RegisterSchool()}>
         RegisterSchool
       </button>
       <button className="bg-gray-600" onClick={GetAllSchoolsData}>
         GetAllSchoolsData
       </button>
-      <button className="bg-gray-600" onClick={AddTeachers}>
+      <button className="bg-gray-600" onClick={() => AddTeachers()}>
         AddTeachers
       </button>
     </div>
