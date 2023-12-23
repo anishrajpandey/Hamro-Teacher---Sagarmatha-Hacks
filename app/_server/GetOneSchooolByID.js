@@ -7,7 +7,7 @@ import {
   onSnapshot,
 } from "firebase/firestore";
 
-export default function AddTeachers(id = "DsNiMtIgQatYLajZV6Ct") {
+export default function GetOneSchoolByID(id = "DsNiMtIgQatYLajZV6Ct") {
   {
     const q = query(collection(db, "schools"));
     const unsubscribe = onSnapshot(q, (QuerySnapshot) => {
