@@ -5,7 +5,7 @@ function Sidebar() {
   return (
     <div>
       <div className="min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased bg-gray-50 text-gray-800">
-  <div className="fixed flex flex-col top-0 left-0 w-64 bg-white h-full border-r">
+  <div className="fixed flex flex-col top-0 left-0 w-auto bg-white h-full border-r ">
 
     <div className="flex items-center justify-center h-14 border-b">
       <Link href='/'><span className='text-[#F79256] font-extrabold'>Hamro</span> Teacher</Link>
@@ -15,7 +15,7 @@ function Sidebar() {
       <ul className="flex flex-col py-4 space-y-1">
         <li className="px-5">
           <div className="flex flex-row items-center h-8">
-            <div className="text-sm font-light tracking-wide text-gray-500">
+            <div className="text-sm font-light tracking-wide text-gray-500 ">
               Menu
             </div>
           </div>
@@ -41,7 +41,7 @@ function Sidebar() {
                 />
               </svg>
             </span>
-            <span className="ml-2 text-sm tracking-wide truncate">
+            <span className="ml-2 text-sm tracking-wide truncate hidden sm:block">
               Dashboard
             </span>
           </a>
@@ -67,8 +67,8 @@ function Sidebar() {
                 />
               </svg>
             </span>
-            <span className="ml-2 text-sm tracking-wide truncate">Forms</span>
-            <span className="px-2 py-0.5 ml-auto text-xs font-medium tracking-wide text-indigo-500 bg-indigo-50 rounded-full">
+            <span className="ml-2 text-sm tracking-wide truncate hidden sm:block">Forms</span>
+            <span className="px-2 py-0.5 ml-auto text-xs font-medium tracking-wide text-indigo-500 bg-indigo-50 rounded-full hidden sm:block">
               20+
             </span>
           </a>
@@ -94,7 +94,7 @@ function Sidebar() {
                 />
               </svg>
             </span>
-            <span className="ml-2 text-sm tracking-wide truncate">
+            <span className="ml-2 text-sm tracking-wide truncate hidden sm:block">
               Messages
             </span>
           </a>
@@ -120,17 +120,17 @@ function Sidebar() {
                 />
               </svg>
             </span>
-            <span className="ml-2 text-sm tracking-wide truncate">
+            <span className="ml-2 text-sm tracking-wide truncate hidden sm:block">
               Notifications
             </span>
-            <span className="px-2 py-0.5 ml-auto text-xs font-medium tracking-wide text-red-500 bg-red-50 rounded-full">
+            <span className="px-2 py-0.5 ml-auto text-xs font-medium tracking-wide text-red-500 bg-red-50 rounded-full hidden sm:block">
               1.2k
             </span>
           </a>
         </li>
         <li className="px-5">
           <div className="flex flex-row items-center h-8">
-            <div className="text-sm font-light tracking-wide text-gray-500 font-extrabold">
+            <div className="text-sm font-light tracking-wide text-gray-500">
               Profile
             </div>
           </div>
@@ -156,10 +156,10 @@ function Sidebar() {
                 />
               </svg>
             </span>
-            <span className="ml-2 text-sm tracking-wide truncate">
+            <span className="ml-2 text-sm tracking-wide truncate hidden sm:block">
               Teacher
             </span>
-            <span className="px-2 py-0.5 ml-auto text-xs font-medium tracking-wide text-green-500 bg-green-50 rounded-full">
+            <span className="px-2 py-0.5 ml-auto text-xs font-medium tracking-wide text-green-500 bg-green-50 rounded-full hidden sm:block">
               15
             </span>
           </a>
@@ -185,8 +185,8 @@ function Sidebar() {
                 />
               </svg>
             </span>
-            <span className="ml-2 text-sm tracking-wide truncate">Students</span>
-            <span className="px-2 py-0.5 ml-auto text-xs font-medium tracking-wide text-green-500 bg-green-50 rounded-full">
+            <span className="ml-2 text-sm tracking-wide truncate hidden sm:block">Students</span>
+            <span className="px-2 py-0.5 ml-auto text-xs font-medium tracking-wide text-green-500 bg-green-50 rounded-full hidden sm:block">
               15
             </span>
           </a>
@@ -199,7 +199,7 @@ function Sidebar() {
           </div>
         </li>
         <li>
-          <a
+          <span
             href="#"
             className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-indigo-500 pr-6"
           >
@@ -219,8 +219,8 @@ function Sidebar() {
                 />
               </svg>
             </span>
-            <span className="ml-2 text-sm tracking-wide truncate">Profile</span>
-          </a>
+            <Link href='/teacherprofile' className="ml-2 text-sm tracking-wide truncate hidden sm:block">Profile</Link>
+          </span>
         </li>
         <li>
           <a
@@ -249,7 +249,7 @@ function Sidebar() {
                 />
               </svg>
             </span>
-            <span className="ml-2 text-sm tracking-wide truncate">
+            <span className="ml-2 text-sm tracking-wide truncate hidden sm:block">
               Settings
             </span>
           </a>
@@ -275,7 +275,7 @@ function Sidebar() {
                 />
               </svg>
             </span>
-            <span className="ml-2 text-sm tracking-wide truncate">Logout</span>
+            <span className="ml-2 text-sm tracking-wide truncate hidden sm:block">Logout</span>
           </a>
         </li>
       </ul>
