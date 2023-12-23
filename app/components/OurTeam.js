@@ -3,7 +3,7 @@ import React from 'react'
 function OurTeam() {
   return (
     <div>
-      <section className="bg-[#324A5F] " id="team">
+      <section className=" bg-[#f8f4ee] " id="team">
   <div className="container px-6 py-10 mx-auto">
     <h1 className="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl  ">
       Our Executive Team
@@ -23,7 +23,7 @@ function OurTeam() {
           Anish Raj Pandey
         </h1>
         <p className="mt-2 text-gray-500 capitalize   group-hover:text-gray-300">
-          Design Director
+          Full Stack Developer
         </p>
         <div className="flex mt-3 -mx-2">
           <a
@@ -80,7 +80,7 @@ function OurTeam() {
           Manish Poudel
         </h1>
         <p className="mt-2 text-gray-500 capitalize   group-hover:text-gray-300">
-          Lead Developer
+            Developer
         </p>
         <div className="flex mt-3 -mx-2">
           <a
@@ -194,7 +194,7 @@ function OurTeam() {
           Rajesh Bista
         </h1>
         <p className="mt-2 text-gray-500 capitalize   group-hover:text-gray-300">
-          Full stack developer
+          Operation Manager
         </p>
         <div className="flex mt-3 -mx-2">
           <a
