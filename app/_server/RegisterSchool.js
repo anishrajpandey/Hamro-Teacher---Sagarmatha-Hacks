@@ -1,8 +1,7 @@
-import { getFirestore } from "firebase/firestore";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "./../../firebase/firebase";
 const RegisterSchool = async () => {
-  await addDoc(collection(db, "schools"), {
+  const res = await addDoc(collection(db, "schools"), {
     name: "School name",
     address: "School address ",
     email: "dfsdf@gmail.com",
@@ -29,6 +28,7 @@ const RegisterSchool = async () => {
       },
     ],
   });
+  console.log("Added document with ID: ", res.id);
 };
 
 export default RegisterSchool;
