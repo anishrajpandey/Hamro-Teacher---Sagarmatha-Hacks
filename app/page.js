@@ -1,10 +1,10 @@
 import Link from "next/link";
-
+import { NavbarSimple } from "./components/Navbar";
 export default function Home() {
   return (
     <div>
-      hamro teacher
-      <Link href={"/register"}>Register Page</Link>
+      <NavbarSimple />
+      <Link href='/login'>Login</Link>
     </div>
   );
 }
