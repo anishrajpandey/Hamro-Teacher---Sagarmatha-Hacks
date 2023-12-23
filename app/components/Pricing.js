@@ -3,7 +3,7 @@ import React from 'react'
 function Pricing() {
   return (
     <div>
-      <section id="pricing">
+      <section id="pricing" >
         <div class="bg-white dark:bg-gray-900">
             <div class="container px-6 py-8 mx-auto">
                 <h1 class="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">Pricing Plan</h1>
