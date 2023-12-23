@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer class="flex flex-col items-center justify-between px-6 py-4 bg-white dark:bg-gray-800 sm:flex-row w-[90%] mx-auto">
+    <div class="flex flex-col items-center justify-between px-6 py-4 bg-white dark:bg-gray-800 sm:flex-row w-[90%] mx-auto">
         <a href="#" class="text-xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300"><span className='text-[#F79256]'>Hamro</span> Teacher</a>
         
         <p class="py-2 text-gray-800 dark:text-white sm:py-0">All rights reserved</p>
@@ -36,7 +36,7 @@ function Footer() {
                 </svg>
             </a>
         </div>
-    </footer>
+    </div>
   )
 }
 

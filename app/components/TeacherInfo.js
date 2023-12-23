@@ -1,12 +1,27 @@
-import React from "react";
+'use client';
+import React, { useState,useRef } from "react";
+
 
 const TeacherInfo = () => {
+    const resetbtn=useRef()
+
+
+    const[teachers, setTeachers] = useState({});
+    const [teachersArray,setTeachersArray]=useState([])
+    function handleAddTeacher(){
+        setTeachersArray((prev)=>([...prev,teachers]))
+        setTeachers({})
+        resetbtn.current.click()
+        console.log(teachersArray);
+        
+    }
+
   return (
     <div>
       <h1 className="text-4xl font-bold text-center mt-4 text-[#324A5F]">
         Teacher's Info
       </h1>
-      <form className="m-12">
+      <form className="m-12" >
         <div class="grid gap-6 mb-6 md:grid-cols-2">
           <div>
             <label
@@ -15,11 +30,15 @@ const TeacherInfo = () => {
             >
               Name
             </label>
-            <input
+            <input onChange={(e) => {
+                setTeachers((prev)=>{
+                   return {...prev,Name:e.target.value}
+                })
+            }}
               type="text"
               id="name"
               class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-              placeholder="First Name"
+              placeholder="Full Name"
               required
             />
           </div>
@@ -36,21 +55,32 @@ const TeacherInfo = () => {
               class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
               placeholder="Phone Number"
               required
+              onChange={(e) => {
+                setTeachers((prev)=>{
+                   return {...prev,Phone:e.target.value}
+                })
+            }}
+              
             />
           </div>
           <div>
             <label
-              for="company"
+              for="subject"
               class="block mb-2 text-sm font-medium text-gray-900 "
             >
               Subject
             </label>
             <input
               type="text"
-              id="company"
+              id="subject"
               class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
               placeholder="Science"
               required
+              onChange={(e) => {
+                setTeachers((prev)=>{
+                   return {...prev,Subject:e.target.value}
+                })
+            }}
             />
           </div>
           <div>
@@ -60,26 +90,20 @@ const TeacherInfo = () => {
             >
               Class
             </label>
-            <select
-              name="class"
-              id="class"
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-            >
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-              <option value="9">9</option>
-              <option value="10">10</option>
-              <option value="11">11</option>
-              <option value="12">12</option>
-              <option value="13">Bachelor</option>
-              <option value="14">Master</option>
-            </select>
+
+            <input
+              type="text"
+              id="Grade"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+              placeholder="10C"
+              required
+              onChange={(e) => {
+                setTeachers((prev)=>{
+                   return {...prev,Class:e.target.value}
+                })
+            }}
+            />
+            
           </div>
         </div>
         <div class="mb-6">
@@ -95,6 +119,11 @@ const TeacherInfo = () => {
             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5    0   "
             placeholder="email"
             required
+            onChange={(e) => {
+                setTeachers((prev)=>{
+                   return {...prev,Email:e.target.value}
+                })
+            }}
           />
         </div>
         <div class="mb-6">
@@ -110,9 +139,14 @@ const TeacherInfo = () => {
             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5    0   "
             placeholder="•••••••••"
             required
+            onChange={(e) => {
+                setTeachers((prev)=>{
+                   return {...prev,Password:e.target.value}
+                })
+            }}
           />
         </div>
-        <div class="mb-6">
+        {/* <div class="mb-6">
           <label
             for="confirm_password"
             class="block mb-2 text-sm font-medium text-gray-900   "
@@ -125,8 +159,13 @@ const TeacherInfo = () => {
             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5    0   "
             placeholder="•••••••••"
             required
+            onChange={(e) => {
+                setTeachers((prev)=>{
+                   return {...prev,Password:e.target.value}
+                })
+            }}
           />
-        </div>
+        </div> */}
         <div class="flex items-start mb-6">
           <div class="flex items-center h-5">
             <input
@@ -151,12 +190,18 @@ const TeacherInfo = () => {
         >
           Submit
         </button>
-        <button
+        <button onClick={handleAddTeacher}
           type="submit"
           class="text-white bg-gray-700 ml-4 hover:bg-[#324A5F] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center"
         >
           Add a teacher  +
         </button>
+        <button  ref={resetbtn}
+          type="reset"
+          class="hidden"
+        >
+reset        </button>
+        
       </form>
     </div>
   );
