@@ -7,7 +7,7 @@ import {
   onSnapshot,
 } from "firebase/firestore";
 
-export default async function GetAllSchoolsData() {
+export default async function GetAllSchoolsData(id) {
   const q = query(collection(db, "schools"));
   const unsubscribe = onSnapshot(q, (QuerySnapshot) => {
     let itemsArr = [];

@@ -10,8 +10,6 @@ export default async function App() {
       <NavbarSimple />
       <Home/>
       <Features/>
-      
-
     </div>
   );
 }
