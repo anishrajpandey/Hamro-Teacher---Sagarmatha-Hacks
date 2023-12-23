@@ -1,0 +1,462 @@
+[
+    {
+        "name": "mohan singh",
+        "conatct": 9847000001,
+        "class": [
+            "1A",
+            "6B",
+            "10C"
+        ],
+        "ranking": {
+            "subjectKnowledge": 9,
+            "effectiveCommunication": 9,
+            "studentFriendly": 8,
+            "punctuality": 7,
+            "classManagement": 9,
+            "organizationalSkills": 8,
+            "Respect-for-students": 9,
+            "Creativity": 9
+        }
+    },
+
+    {
+        "name": "Raj Kapoor",
+        "contact": 9734000006,
+        "class": [
+            "3A",
+            "8B",
+            "11C"
+        ],
+        "ranking": {
+            "subjectKnowledge": 8,
+            "effectiveCommunication": 6,
+            "studentFriendly": 7,
+            "punctuality": 8,
+            "classManagement": 6,
+            "organizationalSkills": 7,
+            "Respect-for-students": 8,
+            "Creativity": 6
+        }
+    },
+
+    {
+        "name": "Ananya Gupta",
+        "contact": 9623000007,
+        "class": [
+            "5A",
+            "10B",
+            "12C"
+        ],
+        "ranking": {
+            "subjectKnowledge": 7,
+            "effectiveCommunication": 9,
+            "studentFriendly": 8,
+            "punctuality": 7,
+            "classManagement": 9,
+            "organizationalSkills": 8,
+            "Respect-for-students": 7,
+            "Creativity": 9
+        }
+    },
+
+    {
+        "name": "Sajan Rai",
+        "contact": 9779800008,
+        "class": [
+            "4A",
+            "9B",
+            "11C"
+        ],
+        "ranking": {
+            "subjectKnowledge": 8,
+            "effectiveCommunication": 7,
+            "studentFriendly": 9,
+            "punctuality": 8,
+            "classManagement": 7,
+            "organizationalSkills": 9,
+            "Respect-for-students": 8,
+            "Creativity": 7
+        }
+    },
+
+    {
+        "name": "Aashika Thapa",
+        "contact": 9779810009,
+        "class": [
+            "6A",
+            "11B",
+            "12C"
+        ],
+        "ranking": {
+            "subjectKnowledge": 9,
+            "effectiveCommunication": 8,
+            "studentFriendly": 7,
+            "punctuality": 9,
+            "classManagement": 8,
+            "organizationalSkills": 7,
+            "Respect-for-students": 8,
+            "Creativity": 9
+        }
+    },
+
+    {
+        "name": "Dinesh Gurung",
+        "contact": 9779820010,
+        "class": [
+            "7A",
+            "10B",
+            "12C"
+        ],
+        "ranking": {
+            "subjectKnowledge": 8,
+            "effectiveCommunication": 9,
+            "studentFriendly": 8,
+            "punctuality": 7,
+            "classManagement": 9,
+            "organizationalSkills": 8,
+            "Respect-for-students": 7,
+            "Creativity": 9
+        }
+    },
+
+    {
+        "name": "Priyanka Lama",
+        "contact": 9779830011,
+        "class": [
+            "8A",
+            "9B",
+            "11C"
+        ],
+        "ranking": {
+            "subjectKnowledge": 7,
+            "effectiveCommunication": 8,
+            "studentFriendly": 7,
+            "punctuality": 9,
+            "classManagement": 8,
+            "organizationalSkills": 9,
+            "Respect-for-students": 8,
+            "Creativity": 7
+        }
+    },
+
+    {
+        "name": "Roshan Thapa",
+        "contact": 9779840012,
+        "class": [
+            "9A",
+            "10B",
+            "12C"
+        ],
+        "ranking": {
+            "subjectKnowledge": 8,
+            "effectiveCommunication": 7,
+            "studentFriendly": 9,
+            "punctuality": 8,
+            "classManagement": 7,
+            "organizationalSkills": 9,
+            "Respect-for-students": 8,
+            "Creativity": 7
+        }
+    },
+
+    {
+        "name": "Sunita Gurung",
+        "contact": 9779850013,
+        "class": [
+            "10A",
+            "11B",
+            "12C"
+        ],
+        "ranking": {
+            "subjectKnowledge": 9,
+            "effectiveCommunication": 8,
+            "studentFriendly": 7,
+            "punctuality": 9,
+            "classManagement": 8,
+            "organizationalSkills": 7,
+            "Respect-for-students": 8,
+            "Creativity": 9
+        }
+    },
+
+    {
+        "name": "Bikram Magar",
+        "contact": 9779860014,
+        "class": [
+            "11A",
+            "9B",
+            "12C"
+        ],
+        "ranking": {
+            "subjectKnowledge": 8,
+            "effectiveCommunication": 9,
+            "studentFriendly": 8,
+            "punctuality": 7,
+            "classManagement": 9,
+            "organizationalSkills": 8,
+            "Respect-for-students": 7,
+            "Creativity": 9
+        }
+    },
+
+    {
+        "name": "Anjali Bhattarai",
+        "contact": 9779870015,
+        "class": [
+            "12A",
+            "10B",
+            "11C"
+        ],
+        "ranking": {
+            "subjectKnowledge": 7,
+            "effectiveCommunication": 8,
+            "studentFriendly": 7,
+            "punctuality": 9,
+            "classManagement": 8,
+            "organizationalSkills": 9,
+            "Respect-for-students": 8,
+            "Creativity": 7
+        }
+    },
+
+    {
+        "name": "Rajendra Basnet",
+        "contact": 9779880016,
+        "class": [
+            "9A",
+            "11B",
+            "12C"
+        ],
+        "ranking": {
+            "subjectKnowledge": 8,
+            "effectiveCommunication": 7,
+            "studentFriendly": 9,
+            "punctuality": 8,
+            "classManagement": 7,
+            "organizationalSkills": 9,
+            "Respect-for-students": 8,
+            "Creativity": 7
+        }
+    },
+
+    {
+        "name": "Saraswati Thakuri",
+        "contact": 9779890017,
+        "class": [
+            "10A",
+            "11B",
+            "12C"
+        ],
+        "ranking": {
+            "subjectKnowledge": 9,
+            "effectiveCommunication": 8,
+            "studentFriendly": 7,
+            "punctuality": 9,
+            "classManagement": 8,
+            "organizationalSkills": 7,
+            "Respect-for-students": 8,
+            "Creativity": 9
+        }
+    },
+
+    {
+        "name": "Rajani Sherpa",
+        "contact": 9779800018,
+        "class": [
+            "11A",
+            "10B",
+            "12C"
+        ],
+        "ranking": {
+            "subjectKnowledge": 8,
+            "effectiveCommunication": 9,
+            "studentFriendly": 8,
+            "punctuality": 7,
+            "classManagement": 9,
+            "organizationalSkills": 8,
+            "Respect-for-students": 7,
+            "Creativity": 9
+        }
+    },
+
+    {
+        "name": "Gaurav Nepal",
+        "contact": 9779810019,
+        "class": [
+            "12A",
+            "9B",
+            "10C"
+        ],
+        "ranking": {
+            "subjectKnowledge": 7,
+            "effectiveCommunication": 8,
+            "studentFriendly": 7,
+            "punctuality": 9,
+            "classManagement": 8,
+            "organizationalSkills": 9,
+            "Respect-for-students": 8,
+            "Creativity": 7
+        }
+    },
+
+    {
+        "name": "Sadhana Rai",
+        "contact": 9779820020,
+        "class": [
+            "9A",
+            "11B",
+            "12C"
+        ],
+        "ranking": {
+            "subjectKnowledge": 8,
+            "effectiveCommunication": 7,
+            "studentFriendly": 9,
+            "punctuality": 8,
+            "classManagement": 7,
+            "organizationalSkills": 9,
+            "Respect-for-students": 8,
+            "Creativity": 7
+        }
+    },
+
+    {
+        "name": "Manoj Tamang",
+        "contact": 9779830021,
+        "class": [
+            "10A",
+            "11B",
+            "12C"
+        ],
+        "ranking": {
+            "subjectKnowledge": 7,
+            "effectiveCommunication": 9,
+            "studentFriendly": 8,
+            "punctuality": 7,
+            "classManagement": 9,
+            "organizationalSkills": 8,
+            "Respect-for-students": 7,
+            "Creativity": 9
+        }
+    },
+
+    {
+        "name": "Maya Gurung",
+        "contact": 9779840022,
+        "class": [
+            "11A",
+            "9B",
+            "12C"
+        ],
+        "ranking": {
+            "subjectKnowledge": 9,
+            "effectiveCommunication": 8,
+            "studentFriendly": 7,
+            "punctuality": 9,
+            "classManagement": 8,
+            "organizationalSkills": 7,
+            "Respect-for-students": 8,
+            "Creativity": 9
+        }
+    },
+
+    {
+        "name": "Kiran Lama",
+        "contact": 9779850023,
+        "class": [
+            "12A",
+            "10B",
+            "11C"
+        ],
+        "ranking": {
+            "subjectKnowledge": 8,
+            "effectiveCommunication": 7,
+            "studentFriendly": 9,
+            "punctuality": 8,
+            "classManagement": 7,
+            "organizationalSkills": 9,
+            "Respect-for-students": 8,
+            "Creativity": 7
+        }
+    },
+
+    {
+        "name": "Rajendra Bhattarai",
+        "contact": 9779870025,
+        "class": [
+            "10A",
+            "11B",
+            "12C"
+        ],
+        "ranking": {
+            "subjectKnowledge": 8,
+            "effectiveCommunication": 9,
+            "studentFriendly": 8,
+            "punctuality": 7,
+            "classManagement": 9,
+            "organizationalSkills": 8,
+            "Respect-for-students": 7,
+            "Creativity": 9
+        }
+    },
+
+    {
+        "name": "Hari Thapa",
+        "contact": 9779830031,
+        "class": [
+            "9A",
+            "10B",
+            "12C"
+        ],
+        "ranking": {
+            "subjectKnowledge": 8,
+            "effectiveCommunication": 7,
+            "studentFriendly": 9,
+            "punctuality": 8,
+            "classManagement": 7,
+            "organizationalSkills": 9,
+            "Respect-for-students": 8,
+            "Creativity": 7
+        }
+    },
+
+    {
+        "name": "Sarita Magar",
+        "contact": 9779840032,
+        "class": [
+            "10A",
+            "11B",
+            "12C"
+        ],
+        "ranking": {
+            "subjectKnowledge": 9,
+            "effectiveCommunication": 8,
+            "studentFriendly": 7,
+            "punctuality": 9,
+            "classManagement": 8,
+            "organizationalSkills": 7,
+            "Respect-for-students": 8,
+            "Creativity": 9
+        }
+    },
+
+    {
+        "name": "Surya Bhandari",
+        "contact": 9779850033,
+        "class": [
+            "11A",
+            "9B",
+            "12C"
+        ],
+        "ranking": {
+            "subjectKnowledge": 8,
+            "effectiveCommunication": 9,
+            "studentFriendly": 8,
+            "punctuality": 7,
+            "classManagement": 9,
+            "organizationalSkills": 8,
+            "Respect-for-students": 7,
+            "Creativity": 9
+        }
+    }
+
+]
