@@ -76,14 +76,14 @@ export function NavbarSimple() {
  
   return (
     <Navbar className="mx-auto w-full rounded-none py-3 border-none backdrop-blur-0 backdrop-filter-none bg-transparent shadow-none">
-      <div className="flex items-center justify-between text-blue-gray-900">
+      <div className=" flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
           href="#"
           variant="h6"
           className="mr-4 cursor-pointer py-1.5"
         >
-          <Image src={'/logo/android-chrome-512x512.png'} width={60} height={60}/>
+          <Image src={'/logo/android-chrome-512x512.png'} width={80} height={80}/>
         </Typography>
         <div className="hidden lg:block">
           <NavList />
