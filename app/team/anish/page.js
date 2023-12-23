@@ -21,9 +21,9 @@ export default function page() {
                     <div class="px-7 mb-8">
                         <h2 class="text-3xl font-bold text-green-800 dark:text-gray-300">Anish Raj Pandey</h2>
                         <p class="text-gray-400 mt-2 dark:text-gray-400">Fullstack Developer</p>
-                        <p class="mt-2 text-gray-600 dark:text-gray-300">Coding is more than just a hobby for me, it's a creative outlet that allows
+                        <p class="mt-2 text-gray-600 dark:text-gray-300">Coding is more than just a hobby for me, its a creative outlet that allows
                             me to turn ideas into reality. I love the feeling of bringing a project to life
-                            through code and watching it come to fruition. Whether it's building a
+                            through code and watching it come to fruition. Whether its building a
                             website, creating a mobile app, or tinkering with new technology.</p>
                         <div
                             class=" flex justify-center px-4 py-2 cursor-pointer bg-green-900 max-w-min mx-auto mt-8 rounded-lg text-gray-300 hover:bg-green-800 hover:text-gray-100 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-gray-200">

@@ -2,7 +2,6 @@ import Link from "next/link";
 
 import Home from "./components/Home";
 import Features from "./components/Features";
-import Pricing from "./components/Pricing";
 import OurTeam from "./components/OurTeam";
 import Newsletter from "./components/Newsletter";
 

@@ -38,8 +38,8 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#pricing" className="flex items-center hover:text-blue-500 transition-colors text-lg scroll-smooth">
-          Pricing
+        <a href="#ourteam" className="flex items-center hover:text-blue-500 transition-colors text-lg scroll-smooth">
+          Our Team
         </a>
       </Typography>
       <Typography
@@ -76,14 +76,14 @@ export function NavbarSimple() {
  
   return (
     <Navbar className="mx-auto w-full rounded-none py-3 border-none backdrop-blur-0 backdrop-filter-none bg-transparent shadow-none">
-      <div className=" flex items-center justify-between text-blue-gray-900">
+      <div className=" flex items-center justify-between text-blue-gray-900 ml-20">
         <Typography
           as="a"
           href="#"
           variant="h6"
-          className="mr-4 cursor-pointer py-1.5"
+          className="mr-4 cursor-pointer "
         >
-          <Image src={'/logo/android-chrome-512x512.png'} width={80} height={80}/>
+          <Image src={'/logo/android-chrome-512x512.png'} width="64" height="64"/>
         </Typography>
         <div className="hidden lg:block">
           <NavList />
