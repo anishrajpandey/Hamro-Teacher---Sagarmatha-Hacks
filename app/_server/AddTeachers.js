@@ -14,25 +14,25 @@ export default function AddTeachers(
   Teachers = [
     {
       name: "Teachers name",
-      class: "10",
+      class: ["10", "11", "3t"],
       email: "email@gmail.np",
       password: "thissykdjsf",
     },
     {
       name: "Teachers name",
-      class: "10",
+      class: ["10", "11", "3t"],
       email: "email@gmail.np",
       password: "thissykdjsf",
     },
     {
       name: "Teachers name",
-      class: "10",
+      class: ["10", "11", "3t"],
       email: "email@gmail.np",
       password: "thissykdjsf",
     },
     {
       name: "Teachers name",
-      class: "10",
+      class: ["10", "11", "3t"],
       email: "email@gmail.np",
       password: "thissykdjsf",
     },

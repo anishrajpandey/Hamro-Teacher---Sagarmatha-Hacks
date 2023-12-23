@@ -9,16 +9,9 @@ import {
   updateDoc,
 } from "firebase/firestore";
 
-export default function AddStudents(
-  id = "DsNiMtIgQatYLajZV6Ct",
-  Students = [
-    {
-      name: "Teachers name",
-      class: "10A",
-      stdID: "565",
-      schoolID: "DsNiMtIgQatYLajZV6Ct",
-    },
-  ]
+export default function SendRatings(
+  id = "IexGRb4zbst6pAOMBGVG",
+  teacherPhone = "98322110"
 ) {
   const q = query(collection(db, "schools"));
   const unsubscribe = onSnapshot(q, (QuerySnapshot) => {
@@ -26,10 +19,19 @@ export default function AddStudents(
     QuerySnapshot.forEach((doc) => {
       itemsArr.push({ ...doc.data(), id: doc.id });
     });
-    let prevData = itemsArr.filter((doc) => doc.id === id)[0];
-    let newData = { ...prevData, Students };
-    console.log(newData);
-    handleUpdate(id, newData);
+    let prevData = itemsArr.filter((doc) => doc.id === id)[0].Teachers;
+    console.log(prevData);
+
+    const TeachersData = prevData.filter(
+      (teacher) => teacher.contact === teacherPhone
+    );
+    console.log(TeachersData);
+    let currentData = TeachersData[0];
+    //   let
+
+    // let newData = { ...prevData, Teachers };
+    // console.log(newData);
+    // handleUpdate(id, newData);
   });
 }
 
