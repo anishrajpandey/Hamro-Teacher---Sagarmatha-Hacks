@@ -9,7 +9,7 @@ function OurTeam() {
       Our Executive Team
     </h1>
     <p className="max-w-2xl mx-auto my-6 text-center text-gray-500  ">
-      The core team has been creating, maintaing and improving the platfrom as
+      The core team has been creating, maintaing and improving the platform as
       we are growing.
     </p>
     <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
