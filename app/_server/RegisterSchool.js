@@ -25,6 +25,7 @@ const RegisterSchool = async () => {
       {
         Name: "student1",
         class: "10c",
+        stdID: "2S33",
       },
     ],
   });
