@@ -6,8 +6,11 @@ export default async function Home() {
   return (
     <div>
       <NavbarSimple />
-      <Link href="/login">Login</Link>
-      {}
+      <Link href='/login'>Login</Link>
+      <Link href='/register'>Register</Link>
+      <Link href='/home'>Home</Link>
+      
+
     </div>
   );
 }
