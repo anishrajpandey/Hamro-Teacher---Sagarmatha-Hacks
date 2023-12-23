@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -15,8 +16,9 @@ Register Your School                <svg class="w-5 h-5 ml-2 -mr-1" fill="curren
             <a href="#" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
 Student Login            </a> 
         </div>
-        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <img src="https://www.bigresults.ca/wp-content/uploads/2018/11/jelan-evaluation.png"></img>
+        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex pl-[60px]">
+
+            <Image src="https://img.freepik.com/free-vector/professor-concept-illustration_114360-4226.jpg?w=740&t=st=1703334830~exp=1703335430~hmac=cdf31d199d029083d0839c1a1f3bfcd41beb26e1fa7bbaf052897113e38a4f4a" width={450} height={600}/>
         </div>                
     </div>
 </section>
