@@ -16,7 +16,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function RootLayout({ children }) {
 const pathname=usePathname()
 
-  if (pathname!= '/dashboard' && pathname!='/profile')
+  if (pathname!= '/dashboard' && pathname!= '/ok' && pathname!='/profile')
   {
     return (
       <html lang="en" className='scroll-smooth focus:scroll-auto'>
