@@ -1,10 +1,11 @@
+'use client';
 import React from 'react'
-import Sidebar from '../components/Sidebar'
+import Sidebar from '../components/Sidebar';
 
-const page = () => {
+function page() {
   return (
     <div>
-        <Sidebar/>
+      <Sidebar/>
     </div>
   )
 }
