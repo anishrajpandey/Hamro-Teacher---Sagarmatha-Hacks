@@ -3,7 +3,12 @@ const withMT = require("@material-tailwind/react/utils/withMT");
 /** @type {import('tailwindcss').Config} */
 module.exports = withMT( {
   plugins: [
-    require('flowbite/plugin')  
+
+      require('flowbite/plugin')({
+          charts: true,
+      }),
+      // ... other plugins
+     
   ],
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
