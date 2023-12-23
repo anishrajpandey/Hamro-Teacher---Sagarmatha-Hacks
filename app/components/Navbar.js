@@ -18,7 +18,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors text-lg">
+        <a href="/" className="flex items-center hover:text-blue-500 transition-colors text-lg scroll-smooth">
           Home
         </a>
       </Typography>
@@ -28,8 +28,8 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors text-lg">
-          About
+        <a href="#features" className="flex items-center hover:text-blue-500 transition-colors text-lg scroll-smooth">
+          Features
         </a>
       </Typography>
       <Typography
@@ -38,7 +38,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors text-lg">
+        <a href="#pricing" className="flex items-center hover:text-blue-500 transition-colors text-lg scroll-smooth">
           Pricing
         </a>
       </Typography>
@@ -48,10 +48,14 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors text-lg">
+        <a href="/dashboard" className="flex items-center hover:text-blue-500 transition-colors text-lg">
           Dashboard
         </a>
       </Typography>
+      <a href="/login" class="inline-flex items-center justify-center px-4 py-2 mr-3 text-base font-small text-center text-white rounded-lg bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                Login
+                <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+      </a>
     </ul>
   );
 }
@@ -72,14 +76,14 @@ export function NavbarSimple() {
  
   return (
     <Navbar className="mx-auto w-full rounded-none py-3 border-none backdrop-blur-0 backdrop-filter-none bg-transparent shadow-none">
-      <div className="flex items-center justify-between text-blue-gray-900">
+      <div className=" flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
           href="#"
           variant="h6"
           className="mr-4 cursor-pointer py-1.5"
         >
-          <Image src={'/logo/android-chrome-512x512.png'} width={60} height={60}/>
+          <Image src={'/logo/android-chrome-512x512.png'} width={80} height={80}/>
         </Typography>
         <div className="hidden lg:block">
           <NavList />
