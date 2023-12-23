@@ -1,11 +1,10 @@
 import { getFirestore } from "firebase/firestore";
-import { doc, setDoc } from "firebase/firestore";
-import db from "./../../firebase/firebase";
+import { collection, addDoc } from "firebase/firestore";
+import { db } from "./../../firebase/firebase";
 const RegisterSchool = async () => {
-  await setDoc(doc(db, "hamro-teacher", "schools"), {
-    name: "Los Angeles",
-    state: "CA",
-    country: "USA",
+  await addDoc(collection(db, "schools"), {
+    name: "ansih",
+    email: "this is m skjdf ",
   });
 };
 
