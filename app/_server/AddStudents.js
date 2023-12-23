@@ -9,32 +9,14 @@ import {
   updateDoc,
 } from "firebase/firestore";
 
-export default function AddTeachers(
+export default function AddStudents(
   id = "DsNiMtIgQatYLajZV6Ct",
-  Teachers = [
+  Students = [
     {
       name: "Teachers name",
       class: "10",
-      email: "email@gmail.np",
-      password: "thissykdjsf",
-    },
-    {
-      name: "Teachers name",
-      class: "10",
-      email: "email@gmail.np",
-      password: "thissykdjsf",
-    },
-    {
-      name: "Teachers name",
-      class: "10",
-      email: "email@gmail.np",
-      password: "thissykdjsf",
-    },
-    {
-      name: "Teachers name",
-      class: "10",
-      email: "email@gmail.np",
-      password: "thissykdjsf",
+      stdID: "565",
+      schoolID: "DsNiMtIgQatYLajZV6Ct",
     },
   ]
 ) {
@@ -45,7 +27,7 @@ export default function AddTeachers(
       itemsArr.push({ ...doc.data(), id: doc.id });
     });
     let prevData = itemsArr.filter((doc) => doc.id === id)[0];
-    let newData = { ...prevData, Teachers };
+    let newData = { ...prevData, Students };
     console.log(newData);
     handleUpdate(id, newData);
   });

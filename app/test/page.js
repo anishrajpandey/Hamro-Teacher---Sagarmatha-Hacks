@@ -1,4 +1,5 @@
 "use client";
+import AddStudents from "../_server/AddStudents";
 import AddTeachers from "../_server/AddTeachers";
 import GetAllSchoolsData from "../_server/GetAllSchoolData";
 import GetOneSchoolByID from "../_server/GetOneSchooolByID";
@@ -23,6 +24,9 @@ const page = () => {
       </button>
       <button className="bg-gray-600" onClick={() => AddTeachers()}>
         AddTeachers
+      </button>
+      <button className="bg-gray-600" onClick={() => AddStudents()}>
+        AddStudents
       </button>
     </div>
   );
