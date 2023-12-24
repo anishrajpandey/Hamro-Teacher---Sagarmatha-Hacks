@@ -26,6 +26,7 @@ const RegisterSchool = async (Name, Email, password) => {
     ],
     students: [],
   });
+  return res.id;
   console.log("Added document with ID: ", res.id);
 };
 

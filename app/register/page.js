@@ -4,9 +4,12 @@ import { useState } from "react";
 import RegisterSchool from "../_server/RegisterSchool";
 
 const Register = () => {
-  function handleSubmit() {
+  async function handleSubmit(e) {
+    e.preventDefault();
     console.log("first");
-    RegisterSchool(Data.Name, Data.Email, Data.Password);
+    let res = await RegisterSchool(Data.Name, Data.Email, Data.Password);
+    localStorage.setItem("id", res);
+    console.log(res);
   }
   const [Data, setData] = useState({});
   return (
@@ -57,6 +60,9 @@ const Register = () => {
           </h6>
           <div class="relative h-11 w-full min-w-[200px]">
             <input
+              onChange={(e) => {
+                setData((data) => ({ ...data, Email: e.target.value }));
+              }}
               placeholder="email@gmail.com"
               required
               class="peer h-full w-full rounded-md border border-blue-gray-200 border-t-transparent !border-t-blue-gray-200 bg-transparent px-3 py-3 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 focus:border-2 focus:border-gray-900 focus:border-t-transparent focus:!border-t-gray-900 focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"
@@ -106,14 +112,14 @@ const Register = () => {
             htmlFor="remember"
           ></label>
         </div>
-        <Link href={"/afterSignUp"} type="button" onSubmit={handleSubmit}>
-          <button
-            type="submit"
-            className="bg-blue-800 text-white rounded-lg px-8 p-2 flex m-2 justify-center"
-          >
-            Register{" "}
-          </button>{" "}
-        </Link>
+        {/* <Link href={"/afterSignUp"} type="button" onSubmit={handleSubmit}> */}
+        <button
+          type="submit"
+          className="bg-blue-800 text-white rounded-lg px-8 p-2 flex m-2 justify-center"
+        >
+          Register{" "}
+        </button>{" "}
+        {/* </Link> */}
         <p class="block mt-4 font-sans text-base antialiased font-normal leading-relaxed text-center text-gray-700">
           Already have an account?
           <Link href={"/login"}>Sign In</Link>
