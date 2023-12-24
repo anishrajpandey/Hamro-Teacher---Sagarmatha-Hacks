@@ -4,13 +4,11 @@ function Questions() {
   const [Answers, setAnswers] = useState([0, 0, 0, 0, 0]);
   return (
     <div>
-      <div className="bg-white border rounded-lg px-8 py-6  my-8 mx-4 w-full">
-        <h2 className="text-2xl font-medium mb-4"> Teachers Name Survey</h2>
-        <form>
-          <div className="mb-4">
-            <label className="block text-gray-700 font-medium mb-2">
-              Subject Knowledge
-            </label>
+      <div className="bg-white border rounded-lg px-8 py-6 mx-auto my-8 w-fit max-w-3xl">
+    <h2 className="text-2xl font-medium mb-4"> Teachers Name Survey</h2>
+    <form>
+        <div className="mb-4">
+            <label className="block text-gray-700 font-medium mb-2">Subject Knowledge:</label>
             <div className="flex flex-wrap -mx-2">
               <div className="px-12 w-fit">
                 <label
@@ -22,9 +20,9 @@ function Questions() {
                       Answers.push(1);
                     }}
                     type="radio"
-                    id="color-red"
-                    name="color"
-                    value="red"
+                    id="Subject Knowledge"
+                    name="Subject Knowledge"
+                    value="1"
                     className="mr-2"
                   />
                   1
@@ -40,9 +38,9 @@ function Questions() {
                       Answers.push(2);
                     }}
                     type="radio"
-                    id="color-blue"
-                    name="color"
-                    value="blue"
+                    id="Subject Knowledge"
+                    name="Subject Knowledge"
+                    value="2"
                     className="mr-2"
                   />
                   2
@@ -58,9 +56,9 @@ function Questions() {
                       Answers.push(3);
                     }}
                     type="radio"
-                    id="color-green"
-                    name="color"
-                    value="green"
+                    id="Subject Knowledge"
+                    name="Subject Knowledge"
+                    value="3"
                     className="mr-2"
                   />
                   3
@@ -76,9 +74,9 @@ function Questions() {
                       Answers.push(4);
                     }}
                     type="radio"
-                    id="color-green"
-                    name="color"
-                    value="green"
+                    id="Subject Knowledge"
+                    name="Subject Knowledge"
+                    value="4"
                     className="mr-2"
                   />
                   4
@@ -94,9 +92,9 @@ function Questions() {
                       Answers.push(5);
                     }}
                     type="radio"
-                    id="color-green"
-                    name="color"
-                    value="green"
+                    id="Subject Knowledge"
+                    name="Subject Knowledge"
+                    value="5"
                     className="mr-2"
                   />
                   5
@@ -119,9 +117,9 @@ function Questions() {
                       Answers.push(1);
                     }}
                     type="radio"
-                    id="color-red"
-                    name="color"
-                    value="red"
+                    id="Effective Communication"
+                    name="Effective Communication"
+                    value="1"
                     className="mr-2"
                   />
                   1
@@ -137,9 +135,9 @@ function Questions() {
                       Answers.push(2);
                     }}
                     type="radio"
-                    id="color-blue"
-                    name="color"
-                    value="blue"
+                    id="Effective Communication"
+                    name="Effective Communication"
+                    value="2"
                     className="mr-2"
                   />
                   2
@@ -155,9 +153,9 @@ function Questions() {
                       Answers.push(3);
                     }}
                     type="radio"
-                    id="color-green"
-                    name="color"
-                    value="green"
+                    id="Effective Communication"
+                    name="Effective Communication"
+                    value="3"
                     className="mr-2"
                   />
                   3
@@ -173,9 +171,9 @@ function Questions() {
                       Answers.push(4);
                     }}
                     type="radio"
-                    id="color-green"
-                    name="color"
-                    value="green"
+                    id="Effective Communication"
+                    name="Effective Communication"
+                    value="4"
                     className="mr-2"
                   />
                   4
@@ -191,9 +189,9 @@ function Questions() {
                       Answers.push(5);
                     }}
                     type="radio"
-                    id="color-green"
-                    name="color"
-                    value="green"
+                    id="Effective Communication"
+                    name="Effective Communication"
+                    value="5"
                     className="mr-2"
                   />
                   5
@@ -216,9 +214,9 @@ function Questions() {
                       Answers.push(1);
                     }}
                     type="radio"
-                    id="color-red"
-                    name="color"
-                    value="red"
+                    id="Student Friendly"
+                    name="Student Friendly"
+                    value="1"
                     className="mr-2"
                   />
                   1
@@ -234,9 +232,9 @@ function Questions() {
                       Answers.push(2);
                     }}
                     type="radio"
-                    id="color-blue"
-                    name="color"
-                    value="blue"
+                    id="Student Friendly"
+                    name="Student Friendly"
+                    value="2"
                     className="mr-2"
                   />
                   2
@@ -252,9 +250,9 @@ function Questions() {
                       Answers.push(3);
                     }}
                     type="radio"
-                    id="color-green"
-                    name="color"
-                    value="green"
+                    id="Student Friendly"
+                    name="Student Friendly"
+                    value="3"
                     className="mr-2"
                   />
                   3
@@ -270,9 +268,9 @@ function Questions() {
                       Answers.push(4);
                     }}
                     type="radio"
-                    id="color-green"
-                    name="color"
-                    value="green"
+                    id="Student Friendly"
+                    name="Student Friendly"
+                    value="4"
                     className="mr-2"
                   />
                   4
@@ -288,9 +286,9 @@ function Questions() {
                       Answers.push(5);
                     }}
                     type="radio"
-                    id="color-green"
-                    name="color"
-                    value="green"
+                    id="Student Friendly"
+                    name="Student Friendly"
+                    value="5"
                     className="mr-2"
                   />
                   5
@@ -313,9 +311,9 @@ function Questions() {
                       Answers.push(1);
                     }}
                     type="radio"
-                    id="color-red"
-                    name="color"
-                    value="red"
+                    id="Class Management"
+                    name="Class Management"
+                    value="1"
                     className="mr-2"
                   />
                   1
@@ -331,9 +329,9 @@ function Questions() {
                       Answers.push(2);
                     }}
                     type="radio"
-                    id="color-blue"
-                    name="color"
-                    value="blue"
+                    id="Class Management"
+                    name="Class Management"
+                    value="2"
                     className="mr-2"
                   />
                   2
@@ -349,9 +347,9 @@ function Questions() {
                       Answers.push(3);
                     }}
                     type="radio"
-                    id="color-green"
-                    name="color"
-                    value="green"
+                    id="Class Management"
+                    name="Class Management"
+                    value="3"
                     className="mr-2"
                   />
                   3
@@ -367,9 +365,9 @@ function Questions() {
                       Answers.push(4);
                     }}
                     type="radio"
-                    id="color-green"
-                    name="color"
-                    value="green"
+                    id="Class Management"
+                    name="Class Management"
+                    value="4"
                     className="mr-2"
                   />
                   4
@@ -385,9 +383,9 @@ function Questions() {
                       Answers.push(5);
                     }}
                     type="radio"
-                    id="color-green"
-                    name="color"
-                    value="green"
+                    id="Class Management"
+                    name="Class Management"
+                    value="5"
                     className="mr-2"
                   />
                   5
@@ -410,9 +408,9 @@ function Questions() {
                       Answers.push(1);
                     }}
                     type="radio"
-                    id="color-red"
-                    name="color"
-                    value="red"
+                    id="creativity"
+                    name="creativity"
+                    value="1"
                     className="mr-2"
                   />
                   1
@@ -428,9 +426,9 @@ function Questions() {
                       Answers.push(2);
                     }}
                     type="radio"
-                    id="color-blue"
-                    name="color"
-                    value="blue"
+                    id="creativity"
+                    name="creativity"
+                    value="2"
                     className="mr-2"
                   />
                   2
@@ -446,9 +444,9 @@ function Questions() {
                       Answers.push(3);
                     }}
                     type="radio"
-                    id="color-green"
-                    name="color"
-                    value="green"
+                    id="creativity"
+                    name="creativity"
+                    value="3"
                     className="mr-2"
                   />
                   3
@@ -464,9 +462,9 @@ function Questions() {
                       Answers.push(4);
                     }}
                     type="radio"
-                    id="color-green"
-                    name="color"
-                    value="green"
+                    id="creativity"
+                    name="creativity"
+                    value="4"
                     className="mr-2"
                   />
                   4
@@ -482,9 +480,9 @@ function Questions() {
                       Answers.push(5);
                     }}
                     type="radio"
-                    id="color-green"
-                    name="color"
-                    value="green"
+                    id="creativity"
+                    name="creativity"
+                    value="5"
                     className="mr-2"
                   />
                   5
