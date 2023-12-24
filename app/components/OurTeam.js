@@ -5,7 +5,7 @@ import React from 'react'
 function OurTeam() {
   return (
     <div>
-      <section className=" bg-[#f8f4ee] " id="team">
+      <section className=" bg-[#f8f4ee] " id="ourteam">
         <div className="container px-6 py-10 mx-auto">
           <h1 className="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl  ">
             Our Executive Team
