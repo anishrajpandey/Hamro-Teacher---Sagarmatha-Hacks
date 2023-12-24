@@ -6,6 +6,7 @@ import GetOneSchoolByID from "../_server/GetOneSchooolByID";
 import GetTeachers from "../_server/GetTeachers";
 import RegisterSchool from "../_server/RegisterSchool";
 import SendRatings from "../_server/SendRating";
+import SendRatingForm from "../_server/SendRatingForm";
 
 const page = () => {
   return (
@@ -35,6 +36,9 @@ const page = () => {
       </button>
       <button className="bg-gray-600" onClick={() => SendRatings()}>
         SendRatings
+      </button>
+      <button className="bg-gray-600" onClick={() => SendRatingForm()}>
+        SendRatingForm
       </button>
     </div>
   );
