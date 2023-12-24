@@ -9,34 +9,19 @@ import {
   updateDoc,
 } from "firebase/firestore";
 
-export default function AddTeachers(
+export default function SendRatingForm(
   id = "4gLZhkRAbm06Oazik8ef",
-  Teachers = [
-    {
-      name: "Teachers name",
-      class: ["10", "11", "3t"],
-      email: "email@gmail.np",
-      password: "thissykdjsf",
-    },
-    {
-      name: "Teachers name",
-      class: ["10", "11", "3t"],
-      email: "email@gmail.np",
-      password: "thissykdjsf",
-    },
-    {
-      name: "Teachers name",
-      class: ["10", "11", "3t"],
-      email: "email@gmail.np",
-      password: "thissykdjsf",
-    },
-    {
-      name: "Teachers name",
-      class: ["10", "11", "3t"],
-      email: "email@gmail.np",
-      password: "thissykdjsf",
-    },
-  ]
+  teacherPhone = "123",
+  ranking = {
+    subjectKnowledge: 5,
+    effectiveCommunication: 3,
+    studentFriendly: 5,
+    punctuality: 1,
+    classManagement: 9,
+    organizationalSkills: 3,
+    respectForStudents: 5,
+    creativity: 4,
+  }
 ) {
   const q = query(collection(db, "schools"));
   const unsubscribe = onSnapshot(q, (QuerySnapshot) => {
@@ -44,7 +29,18 @@ export default function AddTeachers(
     QuerySnapshot.forEach((doc) => {
       itemsArr.push({ ...doc.data(), id: doc.id });
     });
-    let prevData = itemsArr.filter((doc) => doc.id === id)[0];
+    let prevData = itemsArr.filter((doc) => doc.id === id)[0].Teachers;
+    console.log(prevData);
+
+    let TeachersData;
+    if (prevData[0]) {
+      TeachersData = prevData.filter(
+        (teacher) => teacher.contact === teacherPhone
+      );
+    } else {
+      TeachersData = prevData;
+    }
+
     let newData = { ...prevData, Teachers };
     console.log(newData);
     handleUpdate(id, newData);
