@@ -14,6 +14,7 @@ const Login = () => {
     console.log(data);
     if (data[0]) {
       alert("login Successful");
+      window.location='/admindashboard'
     } else {
       alert("failed to log in ");
     }

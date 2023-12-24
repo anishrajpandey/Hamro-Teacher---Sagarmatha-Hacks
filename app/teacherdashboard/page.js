@@ -150,7 +150,7 @@ function page() {
             <a href="#" className="relative block">
             </a>
             <button className="flex items-center text-gray-500 dark:text-white text-md">
-              Charlie R
+              Ram Poudel
               <svg
                 width={20}
                 height={20}
@@ -167,7 +167,7 @@ function page() {
       </header>
       <div className="h-screen px-4 pb-24 overflow-auto md:px-6">
         <h1 className="text-4xl font-semibold text-gray-800 dark:text-white">
-          Good afternoom, Charlie
+          Good afternoom, Ram
         </h1>
         <h2 className="text-gray-400 text-md">
           Heres whats happening with your acedamic progress today.
@@ -316,7 +316,7 @@ function page() {
           <div className="w-full">
             <div className="relative w-full px-4 py-6 bg-white shadow-lg dark:bg-gray-700">
               <p className="text-sm font-semibold text-gray-700 border-b border-gray-200 w-max dark:text-white">
-                Teacher Name
+                Hari Aryal
               </p>
               <div className="flex items-end my-6 space-x-2">
                 <p className="text-5xl font-bold text-black dark:text-white">
@@ -400,7 +400,7 @@ function page() {
           <div className="w-full">
             <div className="relative w-full px-4 py-6 bg-white shadow-lg dark:bg-gray-700">
               <p className="text-sm font-semibold text-gray-700 border-b border-gray-200 w-max dark:text-white">
-                Teacher 2
+                Sambridh Giri
               </p>
               <div className="flex items-end my-6 space-x-2">
                 <p className="text-5xl font-bold text-black dark:text-white">
@@ -484,7 +484,7 @@ function page() {
           <div className="w-full">
             <div className="relative w-full px-4 py-6 bg-white shadow-lg dark:bg-gray-700">
               <p className="text-sm font-semibold text-gray-700 border-b border-gray-200 w-max dark:text-white">
-                Teacher 3
+                Hari Om Sharma
               </p>
               <div className="flex items-end my-6 space-x-2">
                 <p className="text-5xl font-bold text-black dark:text-white">
@@ -568,7 +568,7 @@ function page() {
           <div className="w-full">
             <div className="relative w-full px-4 py-6 bg-white shadow-lg dark:bg-gray-700">
               <p className="text-sm font-semibold text-gray-700 border-b border-gray-200 w-max dark:text-white">
-                Teacher 4
+                Roshan Sigdel
               </p>
               <div className="flex items-end my-6 space-x-2">
                 <p className="text-5xl font-bold text-black dark:text-white">
@@ -652,7 +652,7 @@ function page() {
           <div className="w-full">
             <div className="relative w-full px-4 py-6 bg-white shadow-lg dark:bg-gray-700">
               <p className="text-sm font-semibold text-gray-700 border-b border-gray-200 w-max dark:text-white">
-                Teacher 5
+                Sufi Shrestha
               </p>
               <div className="flex items-end my-6 space-x-2">
                 <p className="text-5xl font-bold text-black dark:text-white">
@@ -736,7 +736,7 @@ function page() {
           <div className="w-full">
             <div className="relative w-full px-4 py-6 bg-white shadow-lg dark:bg-gray-700">
               <p className="text-sm font-semibold text-gray-700 border-b border-gray-200 w-max dark:text-white">
-                Teacher 6
+                Bedbyas Oli
               </p>
               <div className="flex items-end my-6 space-x-2">
                 <p className="text-5xl font-bold text-black dark:text-white">
